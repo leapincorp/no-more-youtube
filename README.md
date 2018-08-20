@@ -1,11 +1,13 @@
-# no-more-youtube
-Say goodbye to Youtube. Chrome Extension
+# [Chrome Extension] No More Youtube!
 
-- Install and you cannot watch videos on Youtube.
+YouTube is really time-waster. Install it and you cannot watch videos on Youtube anymore.
 
-## Install it on Chrome Web Store
+## Install
+- On Chrome Web Store
 https://chrome.google.com/webstore/detail/nmcjipiaaapfhmfnlcbgpaimpipijhgk
 
+- On Our Site
+https://leap-in.com/no-more-youtube/
 
 
 
