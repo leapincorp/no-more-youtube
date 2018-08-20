@@ -1,0 +1,39 @@
+{
+  "name": "No More Youtube!",
+  "short_name":"NoMoreYoutube",
+  "version": "0.0.6",
+  "manifest_version": 2,
+  "description": "Your time is limited. Don't waste your time on Youtube! Focus on what you're doing! Get Back To Your Work, Idiot!",
+  "homepage_url": "https://leap-in.com",
+  "icons": {
+    "16": "icons/no_more_youtube_16.png",
+    "48": "icons/no_more_youtube_48.png",
+    "128": "icons/no_more_youtube.png"
+  },
+  "permissions": [
+    "https://www.youtube.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources":[
+    "assets/font/RobotoSlab.woff2"
+  ]
+}
